@@ -5,19 +5,19 @@
     "Mark Palfreeman <markpalfreeman@gmail.com>",
     "Gabe Pelegrin <gabepelegrin@gmail.com>"
   ],
-  "description": "Sass mixin for standard button w/ width, height, roundness, and color inputs",
-  "main": "_button.scss",
+  "ignore": [
+    "**/.*md",
+    ".gitignore",
+    "bower.json"
+  ],
   "keywords": [
     "sass",
     "button",
     "mixin",
     "css"
   ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*md",
-    ".gitignore",
-    "bower.json"
-  ]
+  "description": "Sass mixin for standard button w/ width, height, roundness, and color inputs",
+  "main": "_button.scss",
+  "license": "MIT"
 }
 

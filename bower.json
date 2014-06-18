@@ -6,6 +6,7 @@
     "Gabe Pelegrin <gabepelegrin@gmail.com>"
   ],
   "description": "Sass mixin for standard button w/ width, height, roundness, and color inputs",
+  "main": "_button.scss"
   "keywords": [
     "sass",
     "button",
@@ -14,10 +15,9 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "**/.*md",
+    ".gitignore",
+    "bower.json"
   ]
 }
+

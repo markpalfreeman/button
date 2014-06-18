@@ -10,11 +10,12 @@
 }
 ```
 ### Input variables:
-$width = button width
-$height = button height
-$radius = border-radius (roundness)
-$color = button background-color
-$percent-dark = percentage to darken background-color on hover (Ex: '10%')
+
+- $width = button width
+- $height = button height
+- $radius = border-radius (roundness)
+- $color = button background-color
+- $percent-dark = percentage to darken background-color on hover (Ex: '10%')
 
 ## Example
 

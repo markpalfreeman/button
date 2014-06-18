@@ -1,3 +1,9 @@
+$width: 13em !default;
+$height: 5em !default;
+$radius: 0.75em !default;
+$color: #14bbb1 !default;
+$percent-dark: 10% !default;
+
 @mixin button-rounded($width, $height, $radius, $color, $percent-dark) {
   box-sizing: border-box;
   margin: 1em;

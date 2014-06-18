@@ -1,0 +1,20 @@
+@mixin button-rounded($width, $height, $radius, $color, $percent-dark) {
+  box-sizing: border-box;
+  margin: 1em;
+  border-radius: $radius;
+  width: $width;
+  background-color: $color;
+  line-height: $height;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  @if lightness($color) > 70% {
+    color: #333;
+  } @else {
+    color: #fff;
+  }
+  &:hover {
+    background-color: darken($color, $percent-dark);
+    cursor: pointer;
+  }
+}

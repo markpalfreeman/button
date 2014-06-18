@@ -1,0 +1,23 @@
+{
+  "name": "button",
+  "version": "0.1.0",
+  "authors": [
+    "Mark Palfreeman <markpalfreeman@gmail.com>",
+    "Gabe Pelegrin <gabepelegrin@gmail.com>"
+  ],
+  "description": "Sass mixin for standard button w/ width, height, roundness, and color inputs",
+  "keywords": [
+    "sass",
+    "button",
+    "mixin",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
